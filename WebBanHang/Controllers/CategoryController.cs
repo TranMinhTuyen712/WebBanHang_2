@@ -4,10 +4,10 @@ using WebBanHang.Models;
 
 namespace WebBanHang.Controllers
 {
-    public class CategoryControlller : Controller
+    public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _db;
-        public CategoryControlller(ApplicationDbContext db)
+        public CategoryController(ApplicationDbContext db)
         {
             _db = db;
         }

@@ -11,11 +11,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace WebBanHang.Controllers
 {
-    public class ProductControlller : Controller
+    public class ProductController : Controller
     {
         private readonly ApplicationDbContext _db;
         private readonly IHostingEnvironment _hosting;
-        public ProductControlller(ApplicationDbContext db, IHostingEnvironment hosting)
+        public ProductController(ApplicationDbContext db, IHostingEnvironment hosting)
         {
             _db = db;
             _hosting = hosting;
